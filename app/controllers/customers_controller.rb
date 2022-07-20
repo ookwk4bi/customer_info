@@ -1,5 +1,5 @@
 class CustomersController < ApplicationController
-
+  before_action :authenticate_user!
   before_action :set_customer, only: [:show, :edit, :update, :destroy]
   
   def index
@@ -51,8 +51,9 @@ end
   def customer_params
     params.require(:customer).permit(
       :family_name,
-      :given_name,
-      :detail, :account_id
+      :given_name, 
+      :detail, 
+      :account_number
       )
   end  
 
