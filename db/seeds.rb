@@ -6,6 +6,11 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+100.times do |comment|
+  Comment.create(body: "#{comment}回目のコメントです。",
+customer_id: rand(100) + 1,
+user_id: rand(3) + 1)
+end
 
 100.times do |index|
     Customer.create(
