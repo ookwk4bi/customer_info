@@ -62,6 +62,9 @@ https://docs.google.com/spreadsheets/d/1uVg2ICpejKJ08BUCTV34auy97JGyp0MfRH5QQo4U
 
 [![Image from Gyazo](https://i.gyazo.com/ceb851fbec39f33c3571cc0cb7e448d8.gif)](https://gyazo.com/ceb851fbec39f33c3571cc0cb7e448d8)
 
+## 顧客情報詳細ページ
+登録した顧客情報と対応履歴としてコメントが見ることができます。
+[![Image from Gyazo](https://i.gyazo.com/d67db65985cdaad2b63bf7606461e4c2.gif)](https://gyazo.com/d67db65985cdaad2b63bf7606461e4c2)
 
 ## 顧客情報編集機能
 登録した顧客情報について、編集することができます。
@@ -72,6 +75,14 @@ https://docs.google.com/spreadsheets/d/1uVg2ICpejKJ08BUCTV34auy97JGyp0MfRH5QQo4U
 ## 顧客情報削除機能
 登録した顧客情報について、削除ボタンを押すことで情報を削除することができます。
 [![Image from Gyazo](https://i.gyazo.com/338eed5432fd7e9dd8e3c17645b6ef41.gif)](https://gyazo.com/338eed5432fd7e9dd8e3c17645b6ef41)
+
+## 対応履歴コメント機能
+登録した顧客情報について、コメントを残すことができます。
+[![Image from Gyazo](https://i.gyazo.com/5a12c7ccb50f9d25d0712dd54a859ad1.gif)](https://gyazo.com/5a12c7ccb50f9d25d0712dd54a859ad1)
+
+## 検索機能
+トップページにて、登録した顧客情報をカテゴリー別に検索することができる。
+[![Image from Gyazo](https://i.gyazo.com/53714c30357fbf7c57ff3e317d97a732.gif)](https://gyazo.com/53714c30357fbf7c57ff3e317d97a732)
 
 
 # 実装予定機能  
