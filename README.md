@@ -65,58 +65,88 @@ _パスワード: aozora1
   
 
 ## トップページ<br>
+<br>
+
 [![Image from Gyazo](https://i.gyazo.com/347c78fea5233302cb0414c6cc623db3.jpg)](https://gyazo.com/347c78fea5233302cb0414c6cc623db3)
 
 <br>
 
 
-## ユーザー登録機能
+## １.ユーザー登録機能
+<br>
+
 ユーザー登録することで顧客情報の入力が可能です。
+
+<br>
+
 [![Image from Gyazo](https://i.gyazo.com/b0663fc927332fc982b25c6440896b40.gif)](https://gyazo.com/b0663fc927332fc982b25c6440896b40)
 
 <br>
 
 
-## カスタマー登録画面
+## 2.カスタマー登録画面
+<br>
+
 必要情報入力し、ボタンをクリックすることで顧客情報を入力できる。
 
 登録後は、詳細ページを移動。
+<br>
+
 
 [![Image from Gyazo](https://i.gyazo.com/ceb851fbec39f33c3571cc0cb7e448d8.gif)](https://gyazo.com/ceb851fbec39f33c3571cc0cb7e448d8)
 
 <br>
 
-## 顧客情報詳細ページ
+## 3.顧客情報詳細ページ
+<br>
+
 登録した顧客情報と対応履歴としてコメントが見ることができます。
+<br>
+
 [![Image from Gyazo](https://i.gyazo.com/d67db65985cdaad2b63bf7606461e4c2.gif)](https://gyazo.com/d67db65985cdaad2b63bf7606461e4c2)
 
 <br>
 
-## 顧客情報編集機能
+## 4.顧客情報編集機能
+<br>
+
 登録した顧客情報について、編集することができます。
 
 その際に、ユーザーの手間を省くため登録時の情報が表示されるようになっています。
+<br>
+
 [![Image from Gyazo](https://i.gyazo.com/36fa524cd1f008ad64acd48a27d7885d.gif)](https://gyazo.com/36fa524cd1f008ad64acd48a27d7885d)
 
 <br>
 
-## 顧客情報削除機能
+## 5.顧客情報削除機能
+<br>
+
 登録した顧客情報について、削除ボタンを押すことで情報を削除することができます。
+<br>
+
 [![Image from Gyazo](https://i.gyazo.com/338eed5432fd7e9dd8e3c17645b6ef41.gif)](https://gyazo.com/338eed5432fd7e9dd8e3c17645b6ef41)
 
 <br>
   
 
-## 対応履歴コメント機能
+## 6.対応履歴コメント機能
+<br>
 登録した顧客情報について、コメントを残すことができます。
+<br>
+
 [![Image from Gyazo](https://i.gyazo.com/5a12c7ccb50f9d25d0712dd54a859ad1.gif)](https://gyazo.com/5a12c7ccb50f9d25d0712dd54a859ad1)
 
 <br>
 
 
-## 検索機能
+## 7.検索機能
+<br>
 
 トップページにて、登録した顧客情報をカテゴリー別に検索することができる。
+
+<br>
+
 [![Image from Gyazo](https://i.gyazo.com/53714c30357fbf7c57ff3e317d97a732.gif)](https://gyazo.com/53714c30357fbf7c57ff3e317d97a732)
 
 <br>
@@ -194,8 +224,11 @@ Ruby/Ruby on Rails/MySQL/Github/AWS/Visual Studio Code<br>
 % rails db:migrate
 
 % yarn install<br>
+
 <br>
+
 # 工夫したポイント
+*  Gemを多く活用しました。
 
 
 
