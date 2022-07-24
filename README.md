@@ -1,11 +1,14 @@
 # README
-
+  
+  
 # アプリケーション名
-カスタマー情報
+カスタマー情報  
+  
   
 # アプリケーション概要
 ユーザーを登録すると顧客情報を
 登録することができます。
+
 
 自身が登録した顧客情報は編集と削除とコメントができます。
   
@@ -39,8 +42,7 @@ _パスワード: aozora1
 
 
 # 洗い出した案件
-案件を定義したシート
-https://docs.google.com/spreadsheets/d/1uVg2ICpejKJ08BUCTV34auy97JGyp0MfRH5QQo4UIIQ/edit#gid=982722306
+[案件を定義したシート](https://docs.google.com/spreadsheets/d/1uVg2ICpejKJ08BUCTV34auy97JGyp0MfRH5QQo4UIIQ/edit#gid=982722306)
 
 
 # 実装した機能
@@ -62,9 +64,11 @@ https://docs.google.com/spreadsheets/d/1uVg2ICpejKJ08BUCTV34auy97JGyp0MfRH5QQo4U
 
 [![Image from Gyazo](https://i.gyazo.com/ceb851fbec39f33c3571cc0cb7e448d8.gif)](https://gyazo.com/ceb851fbec39f33c3571cc0cb7e448d8)
 
+
 ## 顧客情報詳細ページ
 登録した顧客情報と対応履歴としてコメントが見ることができます。
 [![Image from Gyazo](https://i.gyazo.com/d67db65985cdaad2b63bf7606461e4c2.gif)](https://gyazo.com/d67db65985cdaad2b63bf7606461e4c2)
+
 
 ## 顧客情報編集機能
 登録した顧客情報について、編集することができます。
@@ -72,13 +76,16 @@ https://docs.google.com/spreadsheets/d/1uVg2ICpejKJ08BUCTV34auy97JGyp0MfRH5QQo4U
 その際に、ユーザーの手間を省くため登録時の情報が表示されるようになっています。
 [![Image from Gyazo](https://i.gyazo.com/36fa524cd1f008ad64acd48a27d7885d.gif)](https://gyazo.com/36fa524cd1f008ad64acd48a27d7885d)
 
+
 ## 顧客情報削除機能
 登録した顧客情報について、削除ボタンを押すことで情報を削除することができます。
 [![Image from Gyazo](https://i.gyazo.com/338eed5432fd7e9dd8e3c17645b6ef41.gif)](https://gyazo.com/338eed5432fd7e9dd8e3c17645b6ef41)
+  
 
 ## 対応履歴コメント機能
 登録した顧客情報について、コメントを残すことができます。
 [![Image from Gyazo](https://i.gyazo.com/5a12c7ccb50f9d25d0712dd54a859ad1.gif)](https://gyazo.com/5a12c7ccb50f9d25d0712dd54a859ad1)
+
 
 ## 検索機能
 トップページにて、登録した顧客情報をカテゴリー別に検索することができる。
@@ -113,7 +120,7 @@ https://docs.google.com/spreadsheets/d/1uVg2ICpejKJ08BUCTV34auy97JGyp0MfRH5QQo4U
 
 | Column             | Type   | Options     
 | ------------------ | ------ | ----------- 
-| first_name         | string | null: false 
+| family_name         | string | null: false 
 | detail             | text   | null: false 
 | given_name         | string |    null: false 
 | account_number     | string |  null: false 
@@ -129,12 +136,9 @@ https://docs.google.com/spreadsheets/d/1uVg2ICpejKJ08BUCTV34auy97JGyp0MfRH5QQo4U
 
 | Column | Type       | Options                        
 | ------ | ---------- | ------------------------------ 
-| user       | references | 
-null: false, foreign_key: true 
-| customer   | references | 
-null: false, foreign_key: true 
-| body       | string|  
-null: false 
+| user       | references | null: false, foreign_key: true 
+| customer   | references | null: false, foreign_key: true 
+| body       | string|  null: false 
   
 ### Association
 
@@ -142,12 +146,24 @@ null: false
 - belongs_to :user
 
 
-# 画面遷移図
+# ER図
+[![Image from Gyazo](https://i.gyazo.com/c411647de0d5d8495656a2f871f933b4.png)](https://gyazo.com/c411647de0d5d8495656a2f871f933b4)
 
 # 開発環境
+Ruby/Ruby on Rails/MySQL/Github/AWS/Visual Studio Code
 
-#　ローカルでの動作方法
+#　ローカルでの動作方法  
+% git clone  https://git.heroku.com/customer9438.git
 
+% cd customer_info
+
+% bundle install
+
+% rails db:create
+
+% rails db:migrate
+
+% yarn install
 # 工夫したポイント
 
 
