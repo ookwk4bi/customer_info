@@ -118,12 +118,11 @@ _パスワード: aozora1
 
 トップページにて、登録した顧客情報をカテゴリー別に検索することができる。
 [![Image from Gyazo](https://i.gyazo.com/53714c30357fbf7c57ff3e317d97a732.gif)](https://gyazo.com/53714c30357fbf7c57ff3e317d97a732)
+
 <br>
 
+# テーブル設計
 
-
-
-# テーブル設計<br>
 <br>
 
 ## users テーブル
