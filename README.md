@@ -86,6 +86,7 @@ _パスワード: aozora1
 必要情報入力し、ボタンをクリックすることで顧客情報を入力できる。
 
 登録後は、詳細ページを移動。
+
 <br>
 
 
@@ -95,6 +96,7 @@ _パスワード: aozora1
 
 ## 3.顧客情報詳細ページ
 登録した顧客情報と対応履歴としてコメントが見ることができます。
+
 <br>
 
 [![Image from Gyazo](https://i.gyazo.com/d67db65985cdaad2b63bf7606461e4c2.gif)](https://gyazo.com/d67db65985cdaad2b63bf7606461e4c2)
@@ -105,6 +107,7 @@ _パスワード: aozora1
 登録した顧客情報について、編集することができます。
 
 その際に、ユーザーの手間を省くため登録時の情報が表示されるようになっています。
+
 <br>
 
 [![Image from Gyazo](https://i.gyazo.com/36fa524cd1f008ad64acd48a27d7885d.gif)](https://gyazo.com/36fa524cd1f008ad64acd48a27d7885d)
@@ -113,12 +116,13 @@ _パスワード: aozora1
 
 ## 5.顧客情報削除機能
 登録した顧客情報について、削除ボタンを押すことで情報を削除することができます。
+
+
 <br>
 
 [![Image from Gyazo](https://i.gyazo.com/338eed5432fd7e9dd8e3c17645b6ef41.gif)](https://gyazo.com/338eed5432fd7e9dd8e3c17645b6ef41)
 
 <br>
-  
 
 ## 6.対応履歴コメント機能
 登録した顧客情報について、コメントを残すことができます。
