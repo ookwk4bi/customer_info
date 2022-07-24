@@ -1,5 +1,5 @@
 class Customer < ApplicationRecord
-has_many :comments
+has_many :comments, dependent: :destroy
 
 validates :family_name,
 presence: true, length: { maximum: 20 }
