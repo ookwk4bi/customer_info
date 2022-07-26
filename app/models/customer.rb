@@ -9,4 +9,4 @@ validates :detail, presence: true
 validates :account_number, presence: true
 end
 
-end
+
