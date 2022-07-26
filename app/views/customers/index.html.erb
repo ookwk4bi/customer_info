@@ -35,7 +35,7 @@
         <div class="col-sm-3 col-xs-12">
           <div class="form-group">
             <%= f.label :account_number, '会員番号' %>
-            <%= f.search_field :account_number, class: "form-control input-sm", value: params[:q]&.dig(:account_name) %>
+            <%= f.search_field :account_number, class: "form-control input-sm", value: params[:q]&.dig(:account_number) %>
           </div>
         </div>
         
