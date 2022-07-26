@@ -1,0 +1,44 @@
+div class="row">
+  <div class="col-lg-12">
+    <h1>顧客情報一覧</h1>
+    <div class="row">
+      <div class="col-lg-6">
+        <p>お客様情報が表示されます。</p>
+      </div>
+      <div class="col-lg-6">
+        <%= link_to '顧客登録', new_customer_path, class: "btn btn-default pull-right" %>
+        <%= link_to '複数検索',  search_customers_path, class: "btn btn-default pull-right" %>
+      </div>
+    </div>
+
+    <%= form_with(url: search_customers_path, local: true, method: :get, class: "search-form") do |form| %>
+        <%= form.text_field :keyword, placeholder: "投稿を検索する", class: "search-input" %>
+        <%= form.submit "検索", class: "search-btn" %>
+      <% end %>
+
+    <hr />
+    <table class="table table-striped">
+      <thead>
+        <th>姓</th>
+        <th>名</th>
+        <th>詳細</th>
+        <th>会員番号</th>
+        <th>コメント数</th>
+        <th>リンク</th>
+      </thead>
+      <tbody>
+        <% @customers.each do |customer| %>
+          <tr>
+            <td><%= customer.family_name %></td>
+            <td><%= customer.given_name %></td>
+            <td><%= customer.detail %></td>
+            <td><%= customer.account_number %></td>
+            <td><%= customer.comments.count %></td>
+            <td><%= link_to '詳細', customer, class: "btn btn-default btn-xs" %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+    <%= paginate @customers %>
+  </div>
+</div>
