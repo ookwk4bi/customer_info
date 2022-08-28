@@ -1,5 +1,6 @@
 class Document < ApplicationRecord
     def self.import(file)
+      
         CSV.foreach(file.path, headers: true) do |row|
           # IDが見つかれば、レコードを呼び出し、見つかれなければ、新しく作成
           document = find_by(id: row["id"]) || new

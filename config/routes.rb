@@ -9,7 +9,6 @@ Rails.application.routes.draw do
   resources :comments, only: [:create, :destroy]
   resources :documents do
     collection { post :import }
-    
     collection do
     delete 'destroy_all'
   end
